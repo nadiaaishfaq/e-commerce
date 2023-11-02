@@ -2,7 +2,6 @@ const mongoose =require("mongoose")
 
 
 const Url="mongodb+srv://nabeelgilgit123456:XS7lXROmIFmsihhJ@cluster0.4majehp.mongodb.net/"
-
 mongoose.connect(Url,{
     useNewUrlParser:true,
     useUnifiedTopology:true
