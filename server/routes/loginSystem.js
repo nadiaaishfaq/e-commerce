@@ -9,5 +9,4 @@ router.post("/loginUser",userController.loginuser)
 
 
 
-
 module.exports=router
