@@ -9,6 +9,7 @@ const NavBar = () => {
         <ul className="flex space-x-4">
           <li><a href="/" className="text-white">Home</a></li>
           <li><a href="/about" className="text-white">About</a></li>
+          <li><a href="/category" className="text-white">Category</a></li>
           <li><a href="/signup" className="text-white">Sign Up</a></li>
           <li><a href="/login" className="text-white">Log In</a></li>
           <li>

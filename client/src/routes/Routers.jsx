@@ -6,7 +6,7 @@ import Login from "../register/Login";
 import About from "../components/About";
 import Cart from "../components/Cart/Cart";
 import Footer from "../components/Footer/Footer";
-
+import CategoryScreen from "../category";
 const Routers = () => {
   return (
     <>
@@ -19,6 +19,7 @@ const Routers = () => {
             <Route path="/signup" element={<Signup/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/cart" element={<Cart/>} />
+            <Route path="/category" element={<CategoryScreen/>} />
           </Routes>
           <Footer/>
         </Router>

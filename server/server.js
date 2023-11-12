@@ -8,6 +8,7 @@ const dotenv = require("dotenv")
 const quantityApi = require('./routes/quantity')
 const productApi= require('./routes/productschma')
 const usersigup = require('./routes/loginSystem')
+const categoryApi = require('./routes/category'); 
 
 dotenv.config();
 let PORT = process.env.PORT || 8080
@@ -19,7 +20,7 @@ app.use('/uploads',express.static('uploads'))
 app.use('/Quantity',quantityApi)
 app.use('/Product',productApi)
 app.use('/LoginSystem', usersigup)
-
+app.use('/Category', categoryApi);
 app.listen(PORT, "localhost", (req, res, next) => {
     console.log(`server starting at https://localhost:${PORT}`)
 })
