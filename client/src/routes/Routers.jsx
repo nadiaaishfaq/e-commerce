@@ -6,6 +6,7 @@ import Login from "../register/Login";
 import About from "../components/About";
 import Cart from "../components/Cart/Cart";
 import Footer from "../components/Footer/Footer";
+import Card from "../components/Card/Card";
 
 const Routers = () => {
   return (
