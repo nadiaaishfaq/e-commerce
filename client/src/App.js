@@ -4,9 +4,15 @@ import { store } from "./redux/store";
 
 function App() {
   return (
+<<<<<<< HEAD
     <Provider store={store}>
     <Routers/>
     </Provider>
+=======
+    <>
+   <Routers/>
+    </>
+>>>>>>> origin/main
   );
 }
 
